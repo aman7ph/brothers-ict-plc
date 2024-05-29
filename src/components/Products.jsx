@@ -90,11 +90,13 @@ const products = [
 
 function Products() {
   return (
-    <div id="products" className="my-12 h-[800px] p-12">
+    <div
+      id="products"
+      className="my-12 h-[800px] p-12">
       <h3 className="font-bold text-2xl text-center text-black p-12">
         Products we Serve
       </h3>
-      <div className="flex items-center gap-12 justify-center animate-fade-in">
+      <div className="flex items-center gap-6 justify-center animate-fade-in">
         <Swiper
           modules={[Autoplay, A11y]}
           spaceBetween={30}
@@ -105,8 +107,7 @@ function Products() {
           }}
           loop={true}
           longSwipes={true}
-          className=" py-12"
-        >
+          className=" py-12">
           {products.map((product, index) => (
             <SwiperSlide key={index}>
               <Card {...product} />

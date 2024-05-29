@@ -1,15 +1,15 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import LandingPage from "../page/LandingPage";
+import LandingPage from "../pages/LandingPage";
 import Footer from "../components/Footer";
 import Contact from "../components/Contact";
+import { Outlet } from "react-router-dom";
 
 function GeneralLayout() {
   return (
-    <div>
+    <div className="max-w-[1920px] mx-auto">
       <Navbar />
-      <LandingPage />
-      <Contact />
+      <Outlet></Outlet>
       <Footer />
     </div>
   );
