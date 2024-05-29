@@ -33,15 +33,17 @@ function Services() {
       style={{
         background:
           "linear-gradient(90deg, rgba(2,0,36,1) 41%, rgba(162,28,160,1) 87%)",
-      }}
-    >
+      }}>
       <h3 className="font-bold text-2xl text-center text-white p-12">
         Services we give
       </h3>
 
       <div className="flex items-center gap-12 justify-center animate-fade-in">
         {services.map((service, index) => (
-          <Card key={index} {...service} />
+          <Card
+            key={index}
+            {...service}
+          />
         ))}
       </div>
     </div>

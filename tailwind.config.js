@@ -13,6 +13,7 @@ export default {
         gray: "rgb(17 24 39)",
         "secondary-dark": "#020420",
       },
+      fontFamily: { display: ["Roboto", "sans-serif"] },
     },
   },
   plugins: [],
