@@ -17,13 +17,25 @@ function About() {
         </div>
         <div className="w-1/2 ">
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            quidem iure facilis corporis dignissimos velit! Natus quo laborum
-            dignissimos beatae magni vero explicabo ipsam, fugiat nemo nisi,
-            reiciendis temporibus? Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Tempore accusantium vero aliquid accusamus 
-            commodi consectetur unde enim recusandae magnam? Repellendus
-            praesentium ipsum maxime solu aliquid. Corrupti,
+            Brothers IT Private Limited Company 
+            is 
+            a business firm established in 
+            October 
+            2012G.C. 
+            It 
+            started 
+            passionately about making people 
+            and technology meet on common 
+            ground. We select our brands and 
+            product alignment carefully to bring 
+            best of breed technology to your 
+            business. We test, break, fix and 
+            implement every IT technology within 
+            our own environment before we bring 
+            it to the market. This way you are 
+            assured at all time of our best 
+            intentions and ability to deliver on the 
+            promises we make. 
           </p>
           <div className="m-4 flex items-center ">
             <Link to="about"  className="p-4 flex items-center gap-3 hover:text-fuchsia-500 hover:scale-110 transition duration-200">
