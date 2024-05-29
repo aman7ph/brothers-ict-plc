@@ -1,9 +1,22 @@
-import { RouterProvider } from "react-router-dom";
 import "./App.css";
-import { router } from "./router";
+import GeneralLayout from "./layout/GeneralLayout";
+import About from "./page/About";
+
+const routers = [
+  {
+    path: "",
+    element: <GeneralLayout />,
+  },
+  {
+    path: "about",
+    element: <About />,
+  },
+];
+
+const router = createBrowserRouter(routers);
 
 function App() {
-  return <RouterProvider router={router}></RouterProvider>;
+  return <h1 className="text-fuchsia-600">Brothers</h1>;
 }
 
 export default App;

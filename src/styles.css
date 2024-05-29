@@ -1,0 +1,42 @@
+@keyframes translateFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes translateFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-translate-from-right {
+  animation: translateFromRight 2s ease-out forwards;
+}
+
+.animate-translate-from-left {
+  animation: translateFromLeft 2s ease-out forwards;
+}
+
+.animate-fade-in {
+  animation: fadeIn 5s ease-out forwards;
+}
