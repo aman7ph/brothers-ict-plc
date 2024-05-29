@@ -1,4 +1,3 @@
-import React from "react";
 import { Autoplay, A11y } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -11,7 +10,7 @@ import consultingimg from "../assets/consulting.svg";
 import developeimg from "../assets/develope.svg";
 import networkimg from "../assets/network.svg";
 
-import Card from "./Card";
+import Card from "./Card/Card";
 
 const products = [
   {
@@ -96,11 +95,11 @@ function Products() {
       <h3 className="font-bold text-2xl text-center text-black p-12">
         Products we Serve
       </h3>
-      <div className="flex items-center gap-6 justify-center animate-fade-in">
+      <div className="flex  animate-fade-in">
         <Swiper
           modules={[Autoplay, A11y]}
           spaceBetween={30}
-          slidesPerView={3}
+          slidesPerView={4}
           autoplay={{
             delay: 1500,
             disableOnInteraction: false,

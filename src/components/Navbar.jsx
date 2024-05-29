@@ -1,7 +1,7 @@
 import logoimg from "../assets/hero.svg";
 function Navbar() {
   return (
-    <nav className="flex justify-between items-center w-full sticky top-0 p-4 h-[100px] bg-white bg-opacity-30 backdrop-blur shadow-md z-50">
+    <nav className="flex justify-between items-center w-full sticky top-0 px-[5%] py-4 h-[100px] bg-white bg-opacity-30 backdrop-blur shadow-md z-50">
       <div className="w-[120px] cursor-pointer">
         <img
           src={logoimg}

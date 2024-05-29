@@ -2,7 +2,7 @@ import React from "react";
 import consultingimg from "../assets/consulting.svg";
 import developeimg from "../assets/develope.svg";
 import networkimg from "../assets/network.svg";
-import Card from "./Card";
+import Card from "./Card/Card";
 
 const services = [
   {
@@ -29,7 +29,7 @@ function Services() {
   return (
     <div
       id="services"
-      className="my-12 h-[800px] p-12"
+      className="my-12 min-h-[20rem] p-12"
       style={{
         background:
           "linear-gradient(90deg, rgba(2,0,36,1) 41%, rgba(162,28,160,1) 87%)",
@@ -38,7 +38,7 @@ function Services() {
         Services we give
       </h3>
 
-      <div className="flex items-center gap-12 justify-center animate-fade-in">
+      <div className="flex flex-wrap items-center gap-12  justify-center animate-fade-in">
         {services.map((service, index) => (
           <Card
             key={index}

@@ -12,7 +12,7 @@ import consultingimg from "../assets/consulting.svg";
 import developeimg from "../assets/develope.svg";
 import networkimg from "../assets/network.svg";
 
-import Card from "./Card";
+import Card from "./Card/Card";
 
 const products = [
   {
@@ -91,7 +91,9 @@ const products = [
 function Testimonials() {
   return (
     <div>
-      <div id="products" className="my-12 h-[800px] p-12">
+      <div
+        id="products"
+        className="my-12 h-[800px] p-12">
         <h3 className="font-bold text-2xl text-center text-black p-12">
           Testimonials from out Clients
         </h3>
@@ -106,8 +108,7 @@ function Testimonials() {
             }}
             loop={true}
             longSwipes={true}
-            className=" py-12"
-          >
+            className=" py-12">
             {products.map((product, index) => (
               <SwiperSlide key={index}>
                 <Card {...product} />
