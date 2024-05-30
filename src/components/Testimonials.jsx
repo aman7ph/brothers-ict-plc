@@ -14,7 +14,7 @@ import networkimg from "../assets/network.svg";
 
 import Card from "./Card/Card";
 
-const products = [
+const testimonials = [
   {
     title: "Consulting",
     image: consultingimg,
@@ -92,16 +92,32 @@ function Testimonials() {
   return (
     <div>
       <div
-        id="products"
-        className="my-12 h-[800px] p-12">
+        id="testimonials"
+        className="my-12 h-[800px] py-12 px-[5%] mx-auto">
         <h3 className="font-bold text-2xl text-center text-black p-12">
-          Testimonials from out Clients
+          Testimonials from our Clients
         </h3>
-        <div className="flex items-center gap-12 justify-center animate-fade-in">
+        <div className="flex items-center    gap-12 justify-center animate-fade-in">
           <Swiper
             modules={[Autoplay, A11y]}
-            spaceBetween={30}
-            slidesPerView={4}
+            breakpoints={{
+              0: {
+                spaceBetween: 15,
+                slidesPerView: 1,
+              },
+              640: {
+                spaceBetween: 5,
+                slidesPerView: 2,
+              },
+              1024: {
+                spaceBetween: 5,
+                slidesPerView: 3,
+              },
+              1280: {
+                spaceBetween: 30,
+                slidesPerView: 4,
+              },
+            }}
             autoplay={{
               delay: 1500,
               disableOnInteraction: false,
@@ -109,9 +125,9 @@ function Testimonials() {
             loop={true}
             longSwipes={true}
             className=" py-12">
-            {products.map((product, index) => (
+            {testimonials.map((testimonial, index) => (
               <SwiperSlide key={index}>
-                <Card {...product} />
+                <Card {...testimonial} />
               </SwiperSlide>
             ))}
           </Swiper>

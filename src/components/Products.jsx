@@ -98,8 +98,24 @@ function Products() {
       <div className="flex  animate-fade-in">
         <Swiper
           modules={[Autoplay, A11y]}
-          spaceBetween={30}
-          slidesPerView={4}
+          breakpoints={{
+            0: {
+              spaceBetween: 15,
+              slidesPerView: 1,
+            },
+            640: {
+              spaceBetween: 5,
+              slidesPerView: 2,
+            },
+            1024: {
+              spaceBetween: 5,
+              slidesPerView: 3,
+            },
+            1280: {
+              spaceBetween: 30,
+              slidesPerView: 4,
+            },
+          }}
           autoplay={{
             delay: 1500,
             disableOnInteraction: false,

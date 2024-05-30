@@ -13,13 +13,13 @@ const Service = () => {
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, aut quas praesentium asperiores assumenda, impedit ad voluptatibus, iusto eos ratione explicabo.",
     },
     {
-      title: "Developing",
+      title: "Software Design",
       image: developeimg,
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, aut quas praesentium asperiores assumenda, impedit ad voluptatibus, iusto eos ratione explicabo.",
     },
     {
-      title: "Networking",
+      title: "Software Implementation",
       image: networkimg,
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, aut quas praesentium asperiores assumenda, impedit ad voluptatibus, iusto eos ratione explicabo.",
