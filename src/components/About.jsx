@@ -6,10 +6,10 @@ function About() {
   return (
     <div
       id="about"
-      className="my-12">
+      className="my-12 px-[5%]">
       <h3 className="font-bold text-2xl text-center">About our company</h3>
-      <div className="flex gap-12 items-center justify-between w-full p-6  animate-fade-in md:flex-row flex-col">
-        <div className="md:w-1/3 h-[70%]">
+      <div className="flex gap-12 items-center justify-between w-full py-14  animate-fade-in md:flex-row flex-col">
+        <div className="md:w-1/3 bg-black h-[70%]">
           <img
             className="h-full w-full object-contain object-center "
             src={aboutimg}
