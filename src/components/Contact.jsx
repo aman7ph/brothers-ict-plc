@@ -38,7 +38,6 @@ const ContactPage = () => {
             </div>
           </div>
         </div>
-
         {/* Contact Form */}
         <div className="flex-1">
           <h2 className="text-3xl font-extrabold text-gray-900 mb-6 text-center md:text-left">
