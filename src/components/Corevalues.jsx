@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from "../assets/cta.svg";
+import corevalues from "../assets/core_values.svg";
 
 
 
@@ -15,8 +15,19 @@ const CoreValues = () => {
     return (
         <section className="App min-h-[40rem] border">
           <div className="p-4">
-           <div className="flex flex-col md:flex-row p-4   rounded-lg  items-center">
+           <div className="flex flex-col md:flex-row p-4 mt-[7rem]  rounded-lg  items-center">
+            <div className="md:w-1/2 p-4 md:h-[20rem] h-[10rem] flex justify-center items-center">
+                <img
+                  className=" md:h-[20rem] w-full object-contain object-center "
+                  src={corevalues}
+                  alt="img"
+                />
+             </div>
              <div className="md:w-1/2 te p-4">
+                <h2 className=" text-5xl mb-[1rem] ml-[2rem] text-slate-500 font-semibold leading-tight">
+                   Core 
+                   <span className="green">  values</span>
+                </h2>
                 <ul className="space-y-1 text-base text-slate-500 font-medium" >
                    {coreValues.map((value) => (
                                 <li key={value.id} className="p-2  rounded-lg flex items-center">
@@ -30,13 +41,7 @@ const CoreValues = () => {
                     ))}
                 </ul>
               </div>
-             <div className="md:w-1/2 p-4 md:h-[20rem] h[10rem] flex justify-center items-center">
-                <img
-                  className=" md:h-[20rem] w-full object-contain object-center "
-                  src={Image}
-                  alt="img"
-                />
-             </div>
+
            </div>
           </div>
         </section>

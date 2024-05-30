@@ -1,46 +1,35 @@
 import React from "react";
-import aboutimg from "../assets/about-us.svg";
+import missionimage from "../assets/mission.svg";
 
 function Mission() {
-    return (
-        <div id="about" className="my-12">
-          <h3 className="font-bold text-2xl text-center">About our company</h3>
-          <div className="flex gap-12 items-center justify-between w-full p-6 h-[900px] animate-fade-in">
-            <div className="w-1/2 h-full">
-              <img
-                className="h-full w-full object-contain "
-                src={aboutimg}
-                alt="img"
-              />
-            </div>
-            <div className="w-1/2 ">
-              <p>
-                Brothers IT Private Limited Company 
-                is 
-                a business firm established in 
-                October 
-                2012G.C. 
-                It 
-                started 
-                passionately about making people 
-                and technology meet on common 
-                ground. We select our brands and 
-                product alignment carefully to bring 
-                best of breed technology to your 
-                business. We test, break, fix and 
-                implement every IT technology within 
-                our own environment before we bring 
-                it to the market. This way you are 
-                assured at all time of our best 
-                intentions and ability to deliver on the 
-                promises we make. 
-              </p>
-              <div className="m-4 flex items-center ">
-              </div>
-            </div>
-          </div>
-        </div>
-      );
+  return (
+    <div className="h-screen w-screen mt-0  "   style={{
+      background:
+        "linear-gradient(90deg, rgba(2,0,36,1) 41%, rgba(162,28,160,1) 87%)",
+    }}   >
+     <div className=" min-h-[70vh] flex flex-row   items-center  mx-10 pt-40 " >
+       <div className=" md:w-2/4 text-start">
+         <h2 className=" text-5xl text-white font-semibold leading-tight">
+            Our
+           <span className="green">  mission</span>
+         </h2>
+         <p className=" text-white mt-5  text-start">
+              Our company mission is to be reliable, competitive, professional provider of 
+              Information Technology and information systems with maximum capacity and 
+              reliability in the East Africa. Our company mission is to enhancing the business 
+              growth of our customers with creative Design and Development to deliver market
+              defining high-quality solutions that create value and reliable competitive 
+              advantage for our clients in East Africa. Our company mission is to deliver optimal 
+              solutions with quality and services at reasonable prices. For us customer 
+              satisfaction is given top place. 
+         </p>
+       </div>   
+       <div className="ml-52  ">
+         <img  className= "h-full w-full object-contain object-center" src={missionimage} alt="img" />
+       </div>
+     </div>
+    </div>
+   );
 }
 
 export default Mission;

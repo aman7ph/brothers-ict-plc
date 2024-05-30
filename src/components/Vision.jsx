@@ -1,31 +1,28 @@
 import React from "react";
-import img from "../assets/hero.svg";
+import Visionimage from "../assets/vision.svg";
 
 function Vision (){
     return (
-        <div className="h-screen w-screen mt-0 "       style={{
-          background:
-            "linear-gradient(90deg, rgba(2,0,36,1) 41%, rgba(162,28,160,1) 87%)",
-        }}>
-         <div className=" min-h-[70vh] flex flex-col md:flex-row md:justify-between items-center md:mx-32 mx-5 pt-40 " >
-           <div className=" md:w-2/4 text-start">
-             <h2 className=" text-5xl text-white font-semibold leading-tight">
-             Lorem ipsum 
-               <span className="text-red"> dolor</span>
+        <div className="h-screen w-screen mt-0 "     >
+         <div className=" min-h-[70vh] flex flex-row   items-center  mx-10 pt-40 " >
+           <div className=" md:w-2/4 text-start  text-slate-500">
+             <h2 className=" text-5xl  font-semibold leading-tight">
+                Our
+               <span className="green"> vision</span>
              </h2>
-             <p className=" text-white mt-5 text-start">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+             <p className="  mt-5  text-start">
+                To establish efficient information Technology capability that relies on professional 
+                work and performance to be the best competitors of IT industry Our vision is 
+                to develop in a constant manner and grow as a major IT service provider to 
+                become a leading performer, in providing quality data center design, quality IT 
+                equipments, Web and Software Development solutions in the competitive IT 
+                industry. We always guide our customers to success. We have the ability to 
+                accelerate and quickly share the great work or products of your organization or 
+                business. 
              </p>
-     
-     
-           </div>
-     
-           <div className=" w-full md:w-2/4">
-             <img src={img} alt="img" />
+           </div>   
+           <div className="ml-52  ">
+             <img  className= "h-full w-full object-contain object-center" src={Visionimage} alt="img" />
            </div>
          </div>
         </div>
