@@ -47,19 +47,21 @@ function Partners() {
   return (
     <div
       id="services"
-      className="my-12 h-[800px] p-12"
+      className="my-12 min-h-[800px] p-12"
       style={{
         background:
           "linear-gradient(90deg, rgba(2,0,36,1) 41%, rgba(162,28,160,1) 87%)",
-      }}
-    >
+      }}>
       <h3 className="font-bold text-2xl text-center text-white p-12">
         Our Partners and Clients
       </h3>
 
       <div className="flex items-center gap-12 justify-center animate-fade-in flex-wrap">
         {companies.map((companie, index) => (
-          <Circle key={index} {...companie} />
+          <Circle
+            key={index}
+            {...companie}
+          />
         ))}
       </div>
     </div>
