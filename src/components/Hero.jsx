@@ -13,7 +13,7 @@ function Hero() {
         <div className=" md:w-2/4 text-start">
           <h2 className=" text-5xl text-white font-semibold leading-tight">
             Brothers IT
-            <span className="text-red-900"> PLC</span>
+            <span className="text-green"> PLC</span>
           </h2>
           <p className=" text-white mt-5 text-start">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
