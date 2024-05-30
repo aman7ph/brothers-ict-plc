@@ -12,6 +12,8 @@ export default {
         light: "#ffffff",
         gray: "rgb(17 24 39)",
         "secondary-dark": "#020420",
+        red: "red-900",
+        green: "rgb(21 128 61)", //green-700
       },
       fontFamily: { display: ["Roboto", "sans-serif"] },
     },

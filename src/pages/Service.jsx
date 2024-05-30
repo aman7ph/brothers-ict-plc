@@ -2,7 +2,7 @@ import SoftwareDevelopment from "../assets/images/software-development.webp";
 import consultingimg from "../assets/consulting.svg";
 import developeimg from "../assets/develope.svg";
 import networkimg from "../assets/network.svg";
-import Card from "../components/Card";
+import Card from "../components/Card/Card";
 
 const Service = () => {
   const services = [
@@ -13,13 +13,13 @@ const Service = () => {
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, aut quas praesentium asperiores assumenda, impedit ad voluptatibus, iusto eos ratione explicabo.",
     },
     {
-      title: "Developing",
+      title: "Software Design",
       image: developeimg,
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, aut quas praesentium asperiores assumenda, impedit ad voluptatibus, iusto eos ratione explicabo.",
     },
     {
-      title: "Networking",
+      title: "Software Implementation",
       image: networkimg,
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, aut quas praesentium asperiores assumenda, impedit ad voluptatibus, iusto eos ratione explicabo.",
@@ -29,7 +29,7 @@ const Service = () => {
   return (
     <main className="flex flex-col gap-12">
       <section className="flex md:flex-row py-9 lg:justify-between  flex-col  items-center  md:bg-gradient-to-l bg-gradient-to-t  to-[#020024] via-[#020023] from-[#a21ca0] px-[5%] gap-16 ">
-        <div className="flex flex-col gap-8 flex-1">
+        <div className="flex flex-col gap-8 flex-1 md:w-1/2">
           <h1 className="xl:font-extrabold  font-bold sm:text-2xl md:text-3xl xl:text-5xl text-primary-3">
             Software Development
           </h1>
@@ -47,7 +47,7 @@ const Service = () => {
             needs of our clients.
           </span>
         </div>
-        <div className="flex-1  h-[30rem]">
+        <div className="flex-1 md:w-1/2 flex items-center justify-end  h-[30rem]">
           <img
             src={SoftwareDevelopment}
             alt="software development"

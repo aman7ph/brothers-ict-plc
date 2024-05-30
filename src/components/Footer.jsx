@@ -111,7 +111,7 @@ const Footer = () => {
               />
               <button
                 type="submit"
-                className="px-4 py-2  absolute top-0 bottom-0 -right-[0.125rem] rounded-full bg-indigo-600 text-white  hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                className="px-4 py-2  absolute top-0 bottom-0 -right-[0.125rem] rounded-full bg-green text-light  hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500">
                 Subscribe
               </button>
             </form>
