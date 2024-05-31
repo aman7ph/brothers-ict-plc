@@ -1,5 +1,4 @@
 import React from "react";
-import huggingIcon from "../assets/companies/hugging-face.svg";
 
 function Circle({ icon, name }) {
   return (
