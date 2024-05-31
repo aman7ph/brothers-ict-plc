@@ -6,16 +6,16 @@ function About() {
   return (
     <div id="about" className="my-12 px-[5%]">
       <h3 className="font-bold text-2xl text-center">About our company</h3>
-      <div className="flex gap-12 items-center justify-between w-full py-14  animate-fade-in md:flex-row flex-col">
+      <div className="flex gap-12 items-center justify-between w-full py-14 animate-fade-in md:flex-row flex-col">
         <div className="md:w-1/3 bg-black h-[70%]">
           <img
-            className="h-full w-full object-contain object-center "
+            className="h-full w-full object-contain object-center"
             src={aboutimg}
             alt="img"
           />
         </div>
-        <div className="md:w-1/2 ">
-          <p className=" text-justify">
+        <div className="md:w-1/2">
+          <p className="text-justify">
             Brothers IT Private Limited Company, established in October 2012, is
             dedicated to merging technology with people by carefully selecting
             and aligning top-tier technology solutions. We rigorously test all
@@ -34,12 +34,12 @@ function About() {
             and continuous technological improvement, Brothers IT plc is your
             ideal partner.
           </p>
-          <div className="m-4 flex items-center ">
+          <div className="m-4 flex items-center">
             <Link
               to="about"
               className="p-4 flex items-center gap-3 hover:text-fuchsia-500 hover:scale-110 transition duration-200"
             >
-              read more
+              Read more
               <span>
                 <FaArrowRightLong />
               </span>
