@@ -17,6 +17,21 @@ import tplink from "../assets/companies/tplink.png";
 import intel from "../assets/companies/Intel.svg";
 import huawei from "../assets/companies/huawei.svg";
 import fortinet from "../assets/companies/fortinet.svg";
+
+import AddisAbabau from "../assets/client/AddisAbabau.png";
+import DAROicon from "../assets/client/DARO.jpg";
+import EthiopianAgricultureResearchInstitute from "../assets/client/EthiopianAgricultureResearchInstitute.jpg";
+import EthiopianCivilAviationAuthoritylogo from "../assets/client/EthiopianCivilAviationAuthoritylogo.png";
+import EthiopianPressAgency from "../assets/client/EthiopianPressAgency.jpg";
+import EthiopianpublicHealthInstitute from "../assets/client/EthiopianpublicHealthInstitute.png";
+import FederalPoliceCommission from "../assets/client/FederalPoliceCommission.jpg";
+import INSAicon from "../assets/client/INSA.jpg";
+import MetalIndustryDevelopmentInstitute from "../assets/client/MetalIndustryDevelopmentInstitute.jpg";
+import TeklebirhaneAmbayeConstruction from "../assets/client/TeklebirhaneAmbayeConstruction.png";
+import WellegaUniversity from "../assets/client/WellegaUniversity.jpg";
+import WogagenBank from "../assets/client/WogagenBank.png";
+import ethiotelecom from "../assets/client/ethiotelecom.png";
+
 const companies = [
   { icon: cisco, name: "CISCO" },
   { icon: dell, name: "Dell" },
@@ -35,6 +50,19 @@ const companies = [
   { icon: intel, name: "Intel" },
   { icon: huawei, name: "Huawei" },
   { icon: fortinet, name: "Fortinet" },
+  { icon: AddisAbabau, name: "AAU" },
+  { icon: DAROicon, name: "DARO" },
+  { icon: EthiopianAgricultureResearchInstitute, name: "EARI" },
+  { icon: EthiopianCivilAviationAuthoritylogo, name: "ECAA" },
+  { icon: EthiopianPressAgency, name: "EPA" },
+  { icon: EthiopianpublicHealthInstitute, name: "EPHI" },
+  { icon: FederalPoliceCommission, name: "FPC" },
+  { icon: INSAicon, name: "INSA" },
+  { icon: MetalIndustryDevelopmentInstitute, name: "MIDI" },
+  { icon: TeklebirhaneAmbayeConstruction, name: "TAC" },
+  { icon: WellegaUniversity, name: "Wellega University" },
+  { icon: WogagenBank, name: "Wogagen Bank" },
+  { icon: ethiotelecom, name: "ethio telecom" },
 ];
 function Partners() {
   return (

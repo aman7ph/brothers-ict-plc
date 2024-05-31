@@ -6,6 +6,7 @@ import About from "../pages/About";
 import LandingPage from "../pages/LandingPage";
 import NewsPage from "../pages/NewsPage";
 import NewsDetailPage from "../pages/NewsDetailPage";
+import ErrorPage from "../pages/ErrorPage";
 export const router = createBrowserRouter([
   {
     element: <GeneralLayout />,
@@ -29,6 +30,10 @@ export const router = createBrowserRouter([
       {
         path: "news/detail",
         element: <NewsDetailPage />,
+      },
+      {
+        path: "*",
+        element: <ErrorPage></ErrorPage>,
       },
     ],
   },
