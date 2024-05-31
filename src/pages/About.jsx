@@ -9,14 +9,14 @@ function About() {
     <>
       <div
         id="about"
-        className="mb-12 text-white"
+        className="mb-12 px-[5%] text-white"
         style={{
           background:
             "linear-gradient(90deg, rgba(2,0,36,1) 41%, rgba(162,28,160,1) 87%)",
         }}
       >
         <h3 className="font-bold text-2xl mb-5 text-center">Brothers it plc</h3>
-        <div className="px-12 text-justify mx-[3re2] my-12 pb-24 mx-auto">
+        <div className=" text-justify  my-12 pb-24 ">
           {/* <img  className="float-left h-[12rem] w-80" alt="about image" src={aboutimg} /> */}
           <p>
             Brothers IT Private Limited Company is a business firm established

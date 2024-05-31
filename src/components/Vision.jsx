@@ -3,8 +3,8 @@ import Visionimage from "../assets/vision.svg";
 
 function Vision() {
   return (
-    <section className="App min-h-[40rem] ">
-      <div className="p-4">
+    <section className="App min-h-[40rem]  ">
+      <div className="">
         <div className="flex flex-col md:flex-row p-4 mt-[7rem] gap-6  rounded-lg  items-center">
           <div className="md:w-1/2 p-4 md:h-[20rem] h-[10rem] flex justify-center items-center my-4">
             <img
@@ -19,8 +19,8 @@ function Vision() {
               <span className="green"> Vision</span>
             </h2>
             <ul className="space-y-1 text-base text-slate-500 font-medium">
-              <li className="p-2  rounded-lg flex items-center">
-                <div className="ml-2 flex-1">
+              <li className="  rounded-lg flex items-center">
+                <div className=" flex-1">
                   <p className="  mt-5  text-start">
                     To establish efficient information Technology capability
                     that relies on professional work and performance to be the
