@@ -42,6 +42,5 @@ Some of the key features of the website include:
 The application uses [Tailwind CSS](https://tailwindcss.com/) for styling, react icons and story set(https://storyset.com/) for svg .
 
 
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
