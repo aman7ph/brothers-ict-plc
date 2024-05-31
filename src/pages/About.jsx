@@ -19,7 +19,6 @@ function About() {
         <div className="px-12 text-justify mx-[3re2] my-12 pb-24 mx-auto">
           {/* <img  className="float-left h-[12rem] w-80" alt="about image" src={aboutimg} /> */}
           <p>
-            {" "}
             Brothers IT Private Limited Company is a business firm established
             in October 2012G.C. It started passionately about making people and
             technology meet on common ground. We select our brands and product
