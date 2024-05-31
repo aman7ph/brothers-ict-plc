@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 
-function Card({ title, image, description }) {
+function ServiceListCard({ title, image, description, category }) {
   return (
-    <Link>
+    <Link to={`/service/${category}`}>
       <div className="flex gap-3 flex-col w-[300px] bg-light p-6 rounded-lg border border-green-2 shadow-lg hover:scale-110 transition duration-200 min-h-[440px]">
         <img
           src={image}
@@ -16,4 +16,4 @@ function Card({ title, image, description }) {
   );
 }
 
-export default Card;
+export default ServiceListCard;
