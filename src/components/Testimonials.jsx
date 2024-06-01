@@ -177,24 +177,24 @@ const testimonials = [
 function Testimonials() {
   return (
     <div>
-      <div id="testimonials" className="my-12 h-[800px] py-12 px-[5%] mx-auto">
+      <div id="testimonials" className="my-12 h-[800px] py-12 px-[5%]">
         <h3 className="font-bold text-2xl text-center text-black p-12">
-          Testimonials from our Clients
+          Testimon of our Services
         </h3>
         <div className="flex items-center    gap-12 justify-center animate-fade-in">
           <Swiper
             modules={[Autoplay, A11y]}
             breakpoints={{
               0: {
-                spaceBetween: 15,
+                spaceBetween: 50,
                 slidesPerView: 1,
               },
               640: {
-                spaceBetween: 5,
+                spaceBetween: 20,
                 slidesPerView: 2,
               },
               1024: {
-                spaceBetween: 5,
+                spaceBetween: 25,
                 slidesPerView: 3,
               },
               1280: {
@@ -208,10 +208,12 @@ function Testimonials() {
             }}
             loop={true}
             longSwipes={true}
-            className="flex justify-center items-center"
           >
             {testimonials.map((testimonial, index) => (
-              <SwiperSlide key={index}>
+              <SwiperSlide
+                key={index}
+                className="flex justify-center items-center"
+              >
                 <TestimonialsCard {...testimonial} />
               </SwiperSlide>
             ))}

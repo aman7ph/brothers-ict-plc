@@ -8,7 +8,6 @@ import dlink from "../assets/companies/dlink.png";
 import epson from "../assets/companies/epson.png";
 import hp from "../assets/companies/hp.svg";
 import ibm from "../assets/companies/ibm.svg";
-import kaspersky from "../assets/companies/kaspersky.svg";
 import microsoft from "../assets/companies/microsoft.svg";
 import mitsumi from "../assets/companies/mitsumi.png";
 import samsung from "../assets/companies/samsung.svg";
@@ -36,17 +35,15 @@ const companies = [
   { icon: cisco, name: "CISCO" },
   { icon: dell, name: "Dell" },
   { icon: hp, name: "hp" },
-  { icon: ibm, name: "IBN" },
+  { icon: ibm, name: "IBM" },
   { icon: microsoft, name: "Microsoft" },
   { icon: tplink, name: "Tp-Link" },
   { icon: toshiba, name: "Toshiba" },
   { icon: mitsumi, name: "Mitsumi" },
-  { icon: kaspersky, name: "Kaspersky" },
   { icon: epson, name: "Epson" },
   { icon: dlink, name: "D-link" },
   { icon: acer, name: "Acer" },
   { icon: samsung, name: "Samsung" },
-  { icon: Kaspersky, name: "Kaspersky" },
   { icon: intel, name: "Intel" },
   { icon: huawei, name: "Huawei" },
   { icon: fortinet, name: "Fortinet" },
@@ -60,6 +57,7 @@ const companies = [
   { icon: INSAicon, name: "INSA" },
   { icon: MetalIndustryDevelopmentInstitute, name: "MIDI" },
   { icon: TeklebirhaneAmbayeConstruction, name: "TAC" },
+  { icon: Kaspersky, name: "Kaspersky" },
   { icon: WellegaUniversity, name: "Wellega University" },
   { icon: WogagenBank, name: "Wogagen Bank" },
   { icon: ethiotelecom, name: "ethio telecom" },
